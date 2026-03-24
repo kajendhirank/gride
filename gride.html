@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Grid All-in-One</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    .box {
+      background-color: #f2f2f2;
+      border: 1px solid #000;
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h2 class="text-center my-4">Bootstrap Grid All Examples</h2>
+
+  <!-- 1. Equal Columns -->
+  <h4>Equal Columns</h4>
+  <div class="row">
+    <div class="col box">1</div>
+    <div class="col box">2</div>
+    <div class="col box">3</div>
+  </div>
+
+  <!-- 2. Three Equal Columns (4+4+4) -->
+  <h4>3 Equal Columns (col-sm-4)</h4>
+  <div class="row">
+    <div class="col-sm-4 box">Column 1</div>
+    <div class="col-sm-4 box">Column 2</div>
+    <div class="col-sm-4 box">Column 3</div>
+  </div>
+
+  <!-- 3. Two Unequal Columns -->
+  <h4>2 Unequal Columns (4 + 8)</h4>
+  <div class="row">
+    <div class="col-sm-4 box">25%</div>
+    <div class="col-sm-8 box">75%</div>
+  </div>
+
+  <!-- 4. Three Unequal Columns -->
+  <h4>3 Unequal Columns (3 + 6 + 3)</h4>
+  <div class="row">
+    <div class="col-sm-3 box">25%</div>
+    <div class="col-sm-6 box">50%</div>
+    <div class="col-sm-3 box">25%</div>
+  </div>
+
+  <!-- 5. Auto + Fixed Column -->
+  <h4>Auto + Fixed Column</h4>
+  <div class="row">
+    <div class="col box">Auto</div>
+    <div class="col-6 box">50%</div>
+    <div class="col box">Auto</div>
+  </div>
+
+  <!-- 6. Multiple Layouts -->
+  <h4>Multiple Layouts</h4>
+
+  <div class="row">
+    <div class="col box">1 of 2</div>
+    <div class="col box">2 of 2</div>
+  </div>
+
+  <div class="row">
+    <div class="col box">1</div>
+    <div class="col box">2</div>
+    <div class="col box">3</div>
+    <div class="col box">4</div>
+  </div>
+
+  <div class="row">
+    <div class="col box">1</div>
+    <div class="col box">2</div>
+    <div class="col box">3</div>
+    <div class="col box">4</div>
+    <div class="col box">5</div>
+    <div class="col box">6</div>
+  </div>
+
+  <!-- 7. Row Columns -->
+  <h4>Row Columns Control</h4>
+  <div class="row row-cols-1">
+    <div class="col box">A</div>
+    <div class="col box">B</div>
+  </div>
+
+  <div class="row row-cols-2">
+    <div class="col box">A</div>
+    <div class="col box">B</div>
+    <div class="col box">C</div>
+    <div class="col box">D</div>
+  </div>
+
+  <!-- 8. Responsive Layout -->
+  <h4>Responsive Layout</h4>
+  <div class="row">
+    <div class="col-sm-9 box">Main Content</div>
+    <div class="col-sm-3 box">Sidebar</div>
+  </div>
+
+  <!-- 9. Nested Grid -->
+  <h4>Nested Grid</h4>
+  <div class="row">
+    <div class="col-sm-8 box">
+      Parent
+      <div class="row">
+        <div class="col-sm-6 box">Child 1</div>
+        <div class="col-sm-6 box">Child 2</div>
+      </div>
+    </div>
+    <div class="col-sm-4 box">Side</div>
+  </div>
+
+  <!-- 10. Mixed Device Layout -->
+  <h4>Mixed Device Layout</h4>
+  <div class="row">
+    <div class="col-12 col-md-8 box">Main</div>
+    <div class="col-6 col-md-4 box">Side</div>
+  </div>
+
+</div>
+
+</body>
+</html>
